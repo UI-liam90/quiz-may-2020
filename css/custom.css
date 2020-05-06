@@ -28,6 +28,6 @@ div.split div.picture{
   flex: 0 1 25%;
   max-width: 25%;
 }
-.answers .correct {
+.show-answers .correct {
   border: 3px solid #50c878;
 }
