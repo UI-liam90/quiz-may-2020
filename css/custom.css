@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+ol.letters {
+  list-style-type: upper-alpha;
+  font-size: 36px;
+}
+div.split {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+div.split div.anwsers{
+  flex: 0 1 40%;
+  max-width: 40%;
+}
+div.split div.picture{
+  flex: 0 1 60%;
+  max-width: 60%;
+}
+.answers-grid {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  flex-flow: row wrap;
+}
+.answers-grid .item {
+  flex: 0 1 25%;
+  max-width: 25%;
+}
+.answers .correct {
+  border: 3px solid #50c878;
+}
